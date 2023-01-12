@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+.App{
+  color: white;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px rgba(0,0,0,.4);
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.list__section{
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px rgba(0,0,0,.5);
+  width: 23%;
+  border: 2px solid black;
+  background: lightgreen;
+
+}
+.list__todos{
+  list-style-type: none;
+  padding: 20px;
+
+}
+.arrows{
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+.arrows:hover{
+  transform: scale(1.1);
+}
+.list__name{
+  border-radius: 20px 20px 0 0 ;
+  margin: 0;
+  background: teal;
+}
+.list__items{
+  display: flex;
+  justify-content: space-between;
+}
+.btn{
+  padding: 15px;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  background-color: rgb(93, 21, 93);
+}
